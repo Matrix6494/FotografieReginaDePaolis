@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Über mich — Regina De Paolis</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- ========== NAVIGATION ========== -->
+  <header class="navbar" id="navbar">
+    <a href="index.html" class="navbar__logo">
+      <img src="images/Regina_logo.jpg" alt="Logo Regina De Paolis">
+      <span>Regina De Paolis</span>
+    </a>
+    <button class="navbar__hamburger" id="hamburger" aria-label="Menü öffnen">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav class="navbar__nav" id="nav-menu">
+      <a href="index.html" class="navbar__link">Startseite</a>
+      <a href="gallery.html" class="navbar__link">Galerie</a>
+      <a href="about.html" class="navbar__link navbar__link--active">Über mich</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ========== HERO (klein) ========== -->
+    <section class="hero hero--small">
+      <div class="hero__bg" style="background-image: url('images/Regina.jpg');"></div>
+      <div class="hero__overlay"></div>
+      <div class="hero__content">
+        <p class="hero__subtitle fade-in">Fotografin aus Luzern</p>
+        <h1 class="hero__title fade-in">Regina De Paolis</h1>
+      </div>
+    </section>
+
+    <!-- ========== ÜBER MICH – HAUPTBEREICH ========== -->
+    <section class="section about-main">
+      <div class="container about-main__grid">
+        <div class="about-main__image-wrapper fade-in">
+          <img src="images/Regina.jpg" alt="Portrait von Regina De Paolis" class="about-main__image">
+        </div>
+        <div class="about-main__text fade-in">
+          <p class="about-main__label">Über mich</p>
+          <h2 class="about-main__title">Hallo, ich bin Regina.</h2>
+          <p class="about-main__paragraph">Ich bin Fotografin aus Luzern mit einer tiefen Leidenschaft für echte Momente. Meine Arbeit dreht sich darum, Gefühle sichtbar zu machen — ob bei einer Hochzeit, einem Portraitshooting oder einem kreativen Projekt. Ich glaube daran, dass jedes Bild eine Geschichte erzählt. Und ich möchte deine Geschichte erzählen.</p>
+          <p class="about-main__paragraph">Mit Feingefühl, Kreativität und einem Auge für das Besondere begleite ich dich durch deinen Moment — damit er für immer bleibt.</p>
+          <p class="about-main__paragraph">Fotografie ist für mich mehr als ein Beruf — es ist eine Sprache. Eine Art, die Welt zu sehen und das Unsichtbare sichtbar zu machen. Jedes Shooting ist eine Begegnung, jede Aufnahme ein Dialog. Ich nehme mir die Zeit, dich und deine Geschichte wirklich kennenzulernen, damit die Bilder nicht nur schön aussehen — sondern sich auch richtig anfühlen.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SOCIAL MEDIA ========== -->
+    <section class="section about-social">
+      <div class="container">
+        <p class="about-social__label fade-in">Folge mir</p>
+        <div class="about-social__links fade-in">
+          <a class="about-social__link btn-outline" href="https://www.instagram.com/reginadepaolis/" target="_blank" rel="noopener">Instagram</a>
+          <a class="about-social__link btn-outline" href="https://www.linkedin.com/in/regina-de-paolis-nuzzo-09246b10a/?originalSubdomain=ch" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="about-social__link btn-outline" href="https://www.facebook.com/FotografieReginadepaolis/?locale=de_DE" target="_blank" rel="noopener">Facebook</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CTA ========== -->
+    <section class="section about-cta">
+      <div class="container fade-in">
+        <h2 class="about-cta__title">Bereit für dein Shooting?</h2>
+        <a href="index.html#kontakt" class="about-cta__button">Jetzt Kontakt aufnehmen</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <p class="footer__copyright">© 2025 Regina De Paolis · Alle Rechte vorbehalten</p>
+    <p class="footer__location">Luzern, Schweiz</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

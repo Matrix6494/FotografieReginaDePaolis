@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Regina De Paolis — Fotografie Luzern</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- ========== NAVIGATION ========== -->
+  <header class="navbar" id="navbar">
+    <a href="index.html" class="navbar__logo">
+      <img src="images/Regina_logo.jpg" alt="Logo Regina De Paolis">
+      <span>Regina De Paolis</span>
+    </a>
+    <button class="navbar__hamburger" id="hamburger" aria-label="Menü öffnen">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav class="navbar__nav" id="nav-menu">
+      <a href="index.html" class="navbar__link navbar__link--active">Startseite</a>
+      <a href="gallery.html" class="navbar__link">Galerie</a>
+      <a href="about.html" class="navbar__link">Über mich</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ========== SEKTION 1 — HERO ========== -->
+    <section class="hero" id="hero">
+      <div class="hero__bg" style="background-image: url('images/hero.jpg');"></div>
+      <div class="hero__overlay"></div>
+      <div class="hero__content">
+        <p class="hero__subtitle fade-in">Willkommen</p>
+        <h1 class="hero__title fade-in">Regina De Paolis</h1>
+        <p class="hero__tagline fade-in">Fotografie, die Gefühle bewahrt.</p>
+      </div>
+      <div class="hero__scroll-indicator">
+        <span class="hero__scroll-arrow"></span>
+      </div>
+    </section>
+
+    <!-- ========== SEKTION 2 — DIENSTLEISTUNGEN ========== -->
+    <section class="section section--dienstleistungen" id="dienstleistungen">
+      <div class="container">
+        <h2 class="section__title fade-in">Meine Dienstleistungen</h2>
+        <p class="section__subtitle fade-in">Jeder Moment ist einzigartig — ich halte ihn für dich fest.</p>
+        <div class="cards">
+          <article class="card fade-in" style="--card-bg: url('images/service-hochzeiten.jpg');">
+            <div class="card__overlay"></div>
+            <div class="card__content">
+              <h3 class="card__title">Hochzeiten</h3>
+              <p class="card__text">Unvergessliche Erinnerungen an euren besonderen Tag, festgehalten mit Eleganz und Emotion.</p>
+            </div>
+          </article>
+          <article class="card fade-in" style="--card-bg: url('images/service-portraits.jpg');">
+            <div class="card__overlay"></div>
+            <div class="card__content">
+              <h3 class="card__title">Portraits</h3>
+              <p class="card__text">Authentische Portraits, die deine Persönlichkeit und deinen Stil zum Ausdruck bringen.</p>
+            </div>
+          </article>
+          <article class="card fade-in" style="--card-bg: url('images/service-familien.jpg');">
+            <div class="card__overlay"></div>
+            <div class="card__content">
+              <h3 class="card__title">Familien-Momente</h3>
+              <p class="card__text">Natürliche und herzliche Aufnahmen der Menschen, die dir am wichtigsten sind.</p>
+            </div>
+          </article>
+          <article class="card fade-in" style="--card-bg: url('images/service-business.jpg');">
+            <div class="card__overlay"></div>
+            <div class="card__content">
+              <h3 class="card__title">Business</h3>
+              <p class="card__text">Professionelle Bilder, die deiner Marke ein modernes und selbstbewusstes Auftreten verleihen.</p>
+            </div>
+          </article>
+          <article class="card fade-in" style="--card-bg: url('images/service-events.jpg');">
+            <div class="card__overlay"></div>
+            <div class="card__content">
+              <h3 class="card__title">Events</h3>
+              <p class="card__text">Die Energie, Atmosphäre und Highlights deiner Veranstaltung in Bildern eingefangen.</p>
+            </div>
+          </article>
+          <article class="card fade-in" style="--card-bg: url('images/service-kreativ.jpg');">
+            <div class="card__overlay"></div>
+            <div class="card__content">
+              <h3 class="card__title">Kreative Projekte</h3>
+              <p class="card__text">Einzigartige und künstlerische Fotografie, die ganz auf deine Vision abgestimmt ist.</p>
+            </div>
+          </article>
+        </div>
+        <div class="section__actions fade-in">
+          <a href="gallery.html" class="btn-outline">Zur Galerie</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SEKTION 3 — ÜBER MICH (Hero-Stil) ========== -->
+    <section class="section section--ueber-mich" id="ueber-mich">
+      <div class="about-hero">
+        <div class="about-hero__bg"></div>
+        <div class="about-hero__overlay"></div>
+        <div class="about-hero__content fade-in">
+          <p class="ueber-mich__label">Über mich</p>
+          <h2 class="ueber-mich__title">Hallo, ich bin Regina.</h2>
+          <p class="ueber-mich__paragraph">Ich bin Fotografin aus Luzern mit einer tiefen Leidenschaft für echte Momente. Meine Arbeit dreht sich darum, Gefühle sichtbar zu machen — ob bei einer Hochzeit, einem Portraitshooting oder einem kreativen Projekt. Ich glaube daran, dass jedes Bild eine Geschichte erzählt. Und ich möchte deine Geschichte erzählen.</p>
+          <p class="ueber-mich__paragraph">Mit Feingefühl, Kreativität und einem Auge für das Besondere begleite ich dich durch deinen Moment — damit er für immer bleibt.</p>
+          <a href="about.html" class="about-hero__cta btn-outline">Mehr über mich</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SEKTION 4 — KONTAKT ========== -->
+    <section class="section section--kontakt" id="kontakt">
+      <div class="container">
+        <h2 class="section__title fade-in">Lass uns zusammenarbeiten</h2>
+        <p class="section__subtitle fade-in">Ich freue mich auf deine Nachricht.</p>
+        <form class="kontakt-form fade-in" action="#" method="post">
+          <label for="name" class="visually-hidden">Name</label>
+          <input type="text" id="name" name="name" placeholder="Name" required>
+          <label for="email" class="visually-hidden">E-Mail</label>
+          <input type="email" id="email" name="email" placeholder="E-Mail" required>
+          <label for="nachricht" class="visually-hidden">Nachricht</label>
+          <textarea id="nachricht" name="nachricht" placeholder="Nachricht" rows="5" required></textarea>
+          <button type="submit" class="kontakt-form__submit">Absenden</button>
+        </form>
+        <div class="kontakt-daten fade-in">
+          <div class="kontakt-daten__item">
+            <span class="kontakt-daten__icon" aria-hidden="true">&#9993;</span>
+            <a href="mailto:info@reginadepaolis.ch">info@reginadepaolis.ch</a>
+          </div>
+          <div class="kontakt-daten__item">
+            <span class="kontakt-daten__icon" aria-hidden="true">&#9742;</span>
+            <a href="tel:+41763734100">+41 76 373 41 00</a>
+          </div>
+          <div class="kontakt-daten__item">
+            <span class="kontakt-daten__icon" aria-hidden="true">&#128205;</span>
+            <span>Bleicherstrasse 7, 6003 Luzern</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SEKTION 5 — STANDORT ========== -->
+    <section class="section section--standort" id="standort">
+      <div class="container">
+        <h2 class="section__title fade-in">Mein Studio</h2>
+        <p class="section__subtitle fade-in">Du findest mich mitten in Luzern.</p>
+        <p class="standort__adresse fade-in">Bleicherstrasse 7, 6003 Luzern</p>
+      </div>
+      <div class="standort__map-wrapper fade-in">
+        <iframe
+          class="standort__map"
+          src="https://maps.google.com/maps?q=Bleicherstrasse+7,+6003+Luzern&output=embed"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Karte: Bleicherstrasse 7, 6003 Luzern">
+        </iframe>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <p class="footer__copyright">© 2025 Regina De Paolis · Alle Rechte vorbehalten</p>
+    <p class="footer__location">Luzern, Schweiz</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

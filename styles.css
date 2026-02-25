@@ -83,7 +83,6 @@ button {
   z-index: 1000;
   display: flex;
   align-items: center;
-  justify-content: space-between;
   padding: 1rem 2rem;
   min-height: var(--navbar-height);
   background: var(--color-bg);
@@ -114,8 +113,9 @@ button {
 
 .navbar__nav {
   display: flex;
-  flex: 1;
-  justify-content: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
   gap: 2rem;
 }
 
@@ -881,3 +881,4 @@ button {
 }
 
 /* (keine Overlay-Seiten mehr – eigene HTML-Unterseiten) */
+
